@@ -1,0 +1,29 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "card1.arreferenceimage"
+    },
+    {
+      "filename" : "card2.arreferenceimage"
+    },
+    {
+      "filename" : "card3.arreferenceimage"
+    },
+    {
+      "filename" : "card4.arreferenceimage"
+    },
+    {
+      "filename" : "picture1.arreferenceimage"
+    },
+    {
+      "filename" : "picture2.arreferenceimage"
+    },
+    {
+      "filename" : "picture3.arreferenceimage"
+    }
+  ]
+}
