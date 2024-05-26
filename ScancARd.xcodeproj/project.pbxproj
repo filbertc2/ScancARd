@@ -16,6 +16,8 @@
 		0EF0D1162BFC8F18004FF175 /* ARContentModel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0D1152BFC8F18004FF175 /* ARContentModel3.swift */; };
 		0EF0D1182BFC91B0004FF175 /* ARContentModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0D1172BFC91B0004FF175 /* ARContentModel1.swift */; };
 		0EF0D11C2BFC9CAB004FF175 /* ARContentModel4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0D11B2BFC9CAB004FF175 /* ARContentModel4.swift */; };
+		0EF0D11E2BFD92AE004FF175 /* NodeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF0D11D2BFD92AE004FF175 /* NodeActions.swift */; };
+		0EF0D1212BFDA726004FF175 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF0D1202BFDA726004FF175 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		0EF0D1152BFC8F18004FF175 /* ARContentModel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContentModel3.swift; sourceTree = "<group>"; };
 		0EF0D1172BFC91B0004FF175 /* ARContentModel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContentModel1.swift; sourceTree = "<group>"; };
 		0EF0D11B2BFC9CAB004FF175 /* ARContentModel4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARContentModel4.swift; sourceTree = "<group>"; };
+		0EF0D11D2BFD92AE004FF175 /* NodeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeActions.swift; sourceTree = "<group>"; };
+		0EF0D1202BFDA726004FF175 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				0E9DDCF92BF458A500F221C2 /* AppDelegate.swift */,
+				0EF0D11F2BFD92B3004FF175 /* Data */,
 				0EF0D1122BFC8CA3004FF175 /* Model */,
 				0EF0D1102BFC8C83004FF175 /* Main */,
 				0E9DDCFB2BF458A500F221C2 /* art.scnassets */,
 				0E9DDD022BF458A600F221C2 /* Assets.xcassets */,
+				0EF0D1202BFDA726004FF175 /* Launch Screen.storyboard */,
 			);
 			path = ScancARd;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				0EF0D11B2BFC9CAB004FF175 /* ARContentModel4.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0EF0D11F2BFD92B3004FF175 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0EF0D11D2BFD92AE004FF175 /* NodeActions.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			files = (
 				0E9DDCFC2BF458A500F221C2 /* art.scnassets in Resources */,
 				0E9DDD032BF458A600F221C2 /* Assets.xcassets in Resources */,
+				0EF0D1212BFDA726004FF175 /* Launch Screen.storyboard in Resources */,
 				0E9DDD012BF458A500F221C2 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +273,7 @@
 			files = (
 				0E9DDCFE2BF458A500F221C2 /* ViewController.swift in Sources */,
 				0EF0D1142BFC8F10004FF175 /* ARContentModel2.swift in Sources */,
+				0EF0D11E2BFD92AE004FF175 /* NodeActions.swift in Sources */,
 				0EF0D1162BFC8F18004FF175 /* ARContentModel3.swift in Sources */,
 				0EF0D11C2BFC9CAB004FF175 /* ARContentModel4.swift in Sources */,
 				0E9DDCFA2BF458A500F221C2 /* AppDelegate.swift in Sources */,
@@ -436,6 +452,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -447,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Nano-Challenge-2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.ScancARd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,6 +483,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
@@ -477,7 +495,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Nano-Challenge-2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.ScancARd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
